@@ -1,3 +1,6 @@
 [submodule "lollipop-vol5"]
 	path = lollipop-vol5
 	url = git@github.com:IGGG/lollipop-vol5.git
+[submodule "lollipop-vol4"]
+	path = lollipop-vol4
+	url = git@github.com:IGGG/lollipop-vol4.git
