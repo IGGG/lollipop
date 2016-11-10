@@ -1,0 +1,29 @@
+# IGGG Journal "Lollipop"
+
+"Lollipop" とは彼の有名なコミックマーケットで頒布用の IGGG の部誌です．
+このリポジトリでは作成した Lollipop を管理します．
+
+## 今までの部誌
+
+### Lollipop vol.05, Comic Market 91 Edition
+
+Coming Soon ...
+
+### Lollipop vol.04, Comic Market 90 Edition
+
+夏コミ 2016年8月14日 日曜日 西地区 e－04a にて
+
+### Lollipop vol.03, Comic Market 89 Edition
+
+冬コミ 2015年12月31日 木曜日 東地区 ム－41a にて
+
+### Lollipop vol.02, Comic Market 88 Edition
+
+夏コミ 2015年8月16日 日曜日 東地区 O－47b にて
+
+### Lollipop vol.01, Comic Market 87 Edition
+
+冬コミ 2014年12月30日 火曜日 西地区 く－14a にて
+
+# その他
+- 問題があれば Slack にて
