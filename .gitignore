@@ -1,1 +1,6 @@
 lollipop-vol*/*
+
+# jekyll
+_site/
+.sass-cache/
+.jekyll-metadata

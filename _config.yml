@@ -1,0 +1,8 @@
+name: IGGG Journal "Lollipop"
+markdown: redcarpet
+pygments: true
+permalink: /:year/:month/:title/
+url: https://iamnii.github.io/lollipop/
+author:
+    name: IGGGorg
+    twitter: IGGGorg
