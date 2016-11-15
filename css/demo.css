@@ -172,14 +172,19 @@ a:hover {
 /* Refarence https://github.com/sharu725/vyaasa/blob/4583e654f3f521430e8f8e1dfc999626a77167fb/_sass/_layout.scss */
 
 .site-nav {
+		float: right;
     text-align: center;
 }
 
 .nav-link {
+		position: relative;
+		text-align: left;
+		width: 2.5em;
+		height: 2.5em;
+		display: inline-block;
     color: #515151;
-    margin-left: 10px;
-    border-radius: 2px;
-    padding: 5px 10px;
+		margin: 0 0.1em;
+    padding: 10px 10px;
     text-decoration: none;
     font-family: sans-serif;
     border: none;
