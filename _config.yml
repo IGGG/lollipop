@@ -1,6 +1,6 @@
 name: IGGG Journal "Lollipop"
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: :pygments
 permalink: /:year/:month/:title/
 url: https://iamnii.github.io/lollipop/
 author:
