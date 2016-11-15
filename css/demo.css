@@ -169,6 +169,32 @@ a:hover {
 }
 
 
+.post-body {
+  margin: 1em auto;
+  padding: 3em;
+  border: 1px solid #ddd;
+  display: block;
+  max-width: 80%;
+  background: white;
+}
+
+@media screen and (max-width: 600px) {
+  .post-body {
+    padding: 1em;
+    max-width: 95%;
+  }
+}
+
+
+.post-body img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 /* Refarence https://github.com/sharu725/vyaasa/blob/4583e654f3f521430e8f8e1dfc999626a77167fb/_sass/_layout.scss */
 
 .site-nav {

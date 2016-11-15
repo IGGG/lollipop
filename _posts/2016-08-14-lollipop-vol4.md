@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: post
 date:   2016-08-14 00:00:00
 photo: lollipop_vol4.jpg
 caption_header: Lollipop vol.04
 caption: Comic Market 90 Edition
+color: 47489b
 link:
 ---
 
-## Lollipop Vol.04, Comic Market 90 Edition
+## Abstract
 
 2014年5月に突如立ち上がったサークル，「群馬大学電子計算機研究会 (IGGG)」のメンバーが，新しく GitHub で管理をすることで機能的にかつ計画的に執筆したかった部誌第4号です．
 結局，期日ギリギリにバタバタして作りましたよ...．
@@ -15,7 +16,7 @@ IGGG は Information technology researching society of the Gunmer, by the Gunmer
 グンマーの，グンマーによる，グンマーのための IT 研究会，ということでネットワーク系，アルゴリズム系，ハードウェア系，自然言語処理，関数型プログラミングに闇鍋系といった幅広くネタを集めた一冊となっております．
 ぜひお楽しみください．
 
-### Contents
+## Contents
 
 - パケット目grep入門 （atpons）
 - Monadic Parserから感じるモナド （ひげ）
@@ -26,3 +27,8 @@ IGGG は Information technology researching society of the Gunmer, by the Gunmer
 - Py : ゼロから始める競プロ生活 (消火器)
 - 三幕からなる漆黒の闇鍋で今日も 1 日がんばルビィ⌒° ( ・ω・)°⌒ (大宮・テイラー)
 - ステップでつくってみる!Node.js と Bluemix でかんたん Web アプリ on クラウド!! (buu)
+
+## News
+
+- [C90に参加します!｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c90details/)
+- [C90に参加してきました！｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c90after/)
