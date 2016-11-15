@@ -4,7 +4,7 @@ highlighter: :pygments
 permalink: /:year/:month/:title/
 url: https://iggg.github.io/lollipop/
 author:
-    name: IGGG
-    twitter: IGGGorg
-    github: IGGG
-    web: www.iggg.org
+  name: IGGG
+  twitter: IGGGorg
+  github: IGGG
+  web: www.iggg.org

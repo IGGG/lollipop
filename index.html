@@ -1,65 +1,73 @@
 ---
 layout: default
 ---
+
 <div class="container">
 	<header class="clearfix">
 		<h1>{{ site.name }}</h1>
 		<nav class="site-nav">
 			{% if site.author.web %}
-				<a class="nav-link" href="https://{{ site.author.web }}">
-	      	<i class="fa fa-wordpress fa-2x wow bounceIn" data-wow-delay=".1s" aria-hidden="true"></i>
-	      </a>
+			<a class="nav-link" href="https://{{ site.author.web }}">
+				<i class="fa fa-wordpress fa-2x wow bounceIn" data-wow-delay=".1s" aria-hidden="true"></i>
+			</a>
 			{% endif %}
 			{% if site.author.twitter %}
-				<a class="nav-link" href="https://twitter.com/{{ site.author.twitter }}">
-	      	<i class="fa fa-twitter fa-2x wow bounceIn" data-wow-delay=".1s"></i>
-	      </a>
+			<a class="nav-link" href="https://twitter.com/{{ site.author.twitter }}">
+				<i class="fa fa-twitter fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+			</a>
 			{% endif %}
 			{% if site.author.github %}
-				<a class="nav-link" href="https://github.com/{{ site.author.github }}">
-			 		<i class="fa fa-github fa-2x wow bounceIn" data-wow-delay=".1s"></i>
-			 	</a>
+			<a class="nav-link" href="https://github.com/{{ site.author.github }}">
+				<i class="fa fa-github fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+			</a>
 			{% endif %}
 		</nav>
 	</header>
 	<div id="grid-gallery" class="grid-gallery">
 
-	<section class="grid-wrap">
-	<ul class="grid">
-		<li class="grid-sizer"></li><!-- for Masonry column width -->
-		{% for post in site.posts %}
-		<li>
-			<figure>
-				<img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img"/>
-				<figcaption>
-					<h3>{{ post.caption_header}}</h3>
-					<p>{{ post.caption }}</p>
-					{{ post.content }}
-				</figcaption>
-			</figure>
-		</li>
-		{% endfor %}
-	</ul>
-	</section><!-- // grid-wrap -->
+		<section class="grid-wrap">
+			<ul class="grid">
+				<li class="grid-sizer"></li>
+				<!-- for Masonry column width -->
+				{% for post in site.posts %}
+				<li>
+					<figure>
+						<img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img" />
+						<figcaption>
+							<h3>{{ post.caption_header}}</h3>
+							<p>{{ post.caption }}</p>
+							{{ post.content }}
+						</figcaption>
+					</figure>
+				</li>
+				{% endfor %}
+			</ul>
+		</section>
+		<!-- // grid-wrap -->
 
-	<section class="slideshow">
-	<ul>
-		{% for post in site.posts %}
-		<li>
-			<figure>
-				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
-				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
-			</figure>
-		</li>
-		{% endfor %}
-	</ul>
-	<nav>
-		<span class="icon nav-prev"></span>
-		<span class="icon nav-next"></span>
-		<span class="icon nav-close"></span>
-	</nav>
-	<div class="info-keys icon">Navigate with arrow keys</div>
-	</section><!-- // slideshow -->
+		<section class="slideshow">
+			<ul>
+				{% for post in site.posts %}
+				<li>
+					<figure>
+						<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img" />
+						<figcaption>
+							<h3>{{ post.caption_header}}</h3>
+							<p>{{ post.caption }}</p>
+						</figcaption>
+					</figure>
+				</li>
+				{% endfor %}
+			</ul>
+			<nav>
+				<span class="icon nav-prev"></span>
+				<span class="icon nav-next"></span>
+				<span class="icon nav-close"></span>
+			</nav>
+			<div class="info-keys icon">Navigate with arrow keys</div>
+		</section>
+		<!-- // slideshow -->
 
-	</div><!-- // grid-gallery -->
+	</div>
+	<!-- // grid-gallery -->
 </div>
