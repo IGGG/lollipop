@@ -1,7 +1,6 @@
 name: IGGG Journal Lollipop
 description: Library of IGGG Journal Lollipop
 markdown: kramdown
-highlighter: :rouge
 permalink: /:year/:month/:title/
 url: https://iggg.github.io/lollipop/
 icon: IGGG_l.png
