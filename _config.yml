@@ -15,3 +15,5 @@ exclude:
   - lollipop-vol*
 
 timezone: Asia/Tokyo
+
+google-analytics: UA-46141384-5
