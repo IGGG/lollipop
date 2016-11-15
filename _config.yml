@@ -4,6 +4,7 @@ markdown: kramdown
 highlighter: :pygments
 permalink: /:year/:month/:title/
 url: https://iggg.github.io/lollipop/
+icon: IGGG_l.png
 author:
   name: IGGG
   twitter: IGGGorg
