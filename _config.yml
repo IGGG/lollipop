@@ -1,8 +1,10 @@
-name: IGGG Journal "Lollipop"
+name: IGGG Journal 'Lollipop'
 markdown: kramdown
 highlighter: :pygments
 permalink: /:year/:month/:title/
-url: https://iamnii.github.io/lollipop/
+url: https://iggg.github.io/lollipop/
 author:
-    name: IGGGorg
+    name: IGGG
     twitter: IGGGorg
+    github: IGGG
+    web: www.iggg.org

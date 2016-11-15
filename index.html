@@ -4,6 +4,23 @@ layout: default
 <div class="container">
 	<header class="clearfix">
 		<h1>{{ site.name }}</h1>
+		<nav class="site-nav">
+			{% if site.author.web %}
+				<a class="nav-link" href="https://{{ site.author.web }}">
+	      	<i class="fa fa-wordpress fa-2x wow bounceIn" data-wow-delay=".1s" aria-hidden="true"></i>
+	      </a>
+			{% endif %}
+			{% if site.author.twitter %}
+				<a class="nav-link" href="https://twitter.com/{{ site.author.twitter }}">
+	      	<i class="fa fa-twitter fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+	      </a>
+			{% endif %}
+			{% if site.author.github %}
+				<a class="nav-link" href="https://github.com/{{ site.author.github }}">
+			 		<i class="fa fa-github fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+			 	</a>
+			{% endif %}
+		</nav>
 	</header>
 	<div id="grid-gallery" class="grid-gallery">
 
@@ -17,6 +34,7 @@ layout: default
 				<figcaption>
 					<h3>{{ post.caption_header}}</h3>
 					<p>{{ post.caption }}</p>
+					{{ post.content }}
 				</figcaption>
 			</figure>
 		</li>

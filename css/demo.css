@@ -20,11 +20,11 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #47a3da;
+    color: #515151;
 }
 
 a {
-	color: #f0f0f0;
+	color: #21759b;
 	text-decoration: none;
 	outline: none;
 }
@@ -82,42 +82,6 @@ a:hover {
 	margin-left: 4px;
 	position: absolute;
 	color: #fff;
-	background: #47a3da;
-}
-
-.container > header nav {
-	float: right;
-	text-align: center;
-}
-
-.container > header nav a {
-	display: inline-block;
-	position: relative;
-	text-align: left;
-	width: 2.5em;
-	height: 2.5em;
-	background: #fff;
-	border-radius: 50%;
-	margin: 0 0.1em;
-	border: 4px solid #47a3da;
-}
-
-.container > header nav a > span {
-	display: none;
-}
-
-.container > header nav a:hover:before {
-	content: attr(data-info);
-	color: #47a3da;
-	position: absolute;
-	width: 600%;
-	top: 120%;
-	text-align: right;
-	right: 0;
-	pointer-events: none;
-}
-
-.container > header nav a:hover {
 	background: #47a3da;
 }
 
@@ -182,4 +146,30 @@ a:hover {
 	.container > header > span {
 		text-indent: 30px;
 	}
+}
+
+/* Refarence https://github.com/sharu725/vyaasa/blob/4583e654f3f521430e8f8e1dfc999626a77167fb/_sass/_layout.scss */
+
+.site-nav {
+    text-align: center;
+}
+
+.nav-link {
+		color: #515151;
+    margin-left: 10px;
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: none;
+    &:hover{
+        color: $background-color;
+        background: $brand-color;
+    }
+
+    @include media-query($on-laptop) {
+            font-size: 0.8em;
+            margin-left: 5px;
+
+    }
 }
