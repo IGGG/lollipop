@@ -36,7 +36,6 @@ layout: default
 						<figcaption>
 							<h3>{{ post.caption_header}}</h3>
 							<p>{{ post.caption }}</p>
-							{{ post.content }}
 						</figcaption>
 					</figure>
 				</li>
@@ -52,8 +51,9 @@ layout: default
 					<figure>
 						<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img" />
 						<figcaption>
-							<h3>{{ post.caption_header}}</h3>
-							<p>{{ post.caption }}</p>
+							<a href="{{ post.url }}">
+								<h4>More Info</h4>
+							</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -70,4 +70,14 @@ layout: default
 
 	</div>
 	<!-- // grid-gallery -->
+
 </div>
+
+
+<script src="{{ site.url }}/js/imagesloaded.pkgd.min.js"></script>
+<script src="{{ site.url }}/js/masonry.pkgd.min.js"></script>
+<script src="{{ site.url }}/js/classie.js"></script>
+<script src="{{ site.url }}/js/cbpGridGallery.js"></script>
+<script>
+    new CBPGridGallery(document.getElementById('grid-gallery'));
+</script>
