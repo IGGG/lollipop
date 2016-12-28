@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2016-12-22 00:00:00
+date:   2016-12-29 00:00:00
 photo: lollipop_vol5.jpg
 caption_header: Lollipop vol.05
 caption: Comic Market 91 Edition
@@ -25,3 +25,5 @@ IGGG は Information technologyresearching society of theGunmer, by theGunmer, f
 - Lollipop ができるまで (ひげ)
 
 ## News
+
+- [C91に参加します! | 群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c91details/)
