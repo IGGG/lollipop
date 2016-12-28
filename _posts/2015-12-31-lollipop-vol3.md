@@ -31,3 +31,7 @@ IGGG は Information technology researching society of the Gunmer, by the Gunmer
 
 - [C89に参加します｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c89details/)
 - [C89に参加してきました！｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c89%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/)
+
+## Published on Web
+
+[Here](http://ftp.iggg.org/public/comiket/lollipop_vol3.pdf)
