@@ -4,3 +4,6 @@
 [submodule "lollipop-vol4"]
 	path = lollipop-vol4
 	url = git@github.com:IGGG/lollipop-vol4.git
+[submodule "lollipop-vol6"]
+	path = lollipop-vol6
+	url = C:\\Users\\noob\\git\\iggg\\lollipop\\lollipop-vol6
