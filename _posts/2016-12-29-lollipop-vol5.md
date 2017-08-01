@@ -27,3 +27,4 @@ IGGG は Information technologyresearching society of theGunmer, by theGunmer, f
 ## News
 
 - [C91に参加します!｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c91details/)
+- [C91に参加してきました！｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c91after/)
