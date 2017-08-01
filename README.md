@@ -7,7 +7,7 @@
 
 ### Lollipop vol.05, Comic Market 91 Edition
 
-夏コミ 2016年12月29日 木曜日 西地区 ま－07b にて
+冬コミ 2016年12月29日 木曜日 西地区 ま－07b にて
 
 ### Lollipop vol.04, Comic Market 90 Edition
 
