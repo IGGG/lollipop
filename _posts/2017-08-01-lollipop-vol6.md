@@ -29,3 +29,5 @@ IGGG は Information technology researching society of the Gunmer, by the Gunmer
 ## News
 
 - [C92の当落発表がありました！｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/decided-to-participate-c92/)
+- [C92に参加します!｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c92-detail/)
+- [C92に参加してきました！｜群馬大学電子計算機研究会 IGGG](https://www.iggg.org/news/c92after/)
