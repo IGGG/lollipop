@@ -5,11 +5,15 @@
 
 ## 新刊！
 
+### Lollipop vol.07, Comic Market 93 Edition
+
+夏コミ 2017年12月29日 金曜日 東地区 ク-31a にて
+
+## 今までの部誌
+
 ### Lollipop vol.06, Comic Market 92 Edition
 
 夏コミ 2017年8月11日 金曜日 東地区 す-35a にて
-
-## 今までの部誌
 
 ### Lollipop vol.05, Comic Market 91 Edition
 
