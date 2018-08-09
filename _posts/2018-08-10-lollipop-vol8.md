@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2018-08-10 00:00:00
-photo: lollipop_vol8.png
+photo: lollipop_vol8.jpg
 caption_header: Lollipop vol.08
 caption: Comic Market 94 Edition
 color: 00999d
